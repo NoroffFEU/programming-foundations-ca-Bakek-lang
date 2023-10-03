@@ -64,7 +64,9 @@ buttonSomeone.addEventListener("click", function () {
   let contact = window.prompt("Who would you like to call?");
   if (contact !== null && contact.trim() !== "") {
     contact = contact.trim();
-    const result = window.confirm(`Are you sure you want to call ${contact}?`);
+    const result = window.confirm(
+      `Are you sure you want to call ${contact}..?`
+    );
     if (result) {
       smartPhones[0].callSomeone(contact);
     }
