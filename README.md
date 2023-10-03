@@ -3,3 +3,17 @@
 # Programming Foundations CA
 
 Netlify link: https://smartphone-pf-ca.netlify.app/
+
+# Smartphone Object
+
+This object has the following properties:
+
+- smartPhones (Array of Objects)
+- Brand (String)
+- Model (String)
+- Year (Number)
+- isTouchScreen (Boolean)
+- homeButton (Boolean)
+- availableApps: (Array)
+- callSomeone(contact) (Function)
+- imageSrc (String)
